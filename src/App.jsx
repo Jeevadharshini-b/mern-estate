@@ -5,6 +5,7 @@ import Signup from './pages/Signup';
 import About from './pages/About';
 import Profile from './pages/Profile';
 
+
  
 export default function App() {
   return <BrowserRouter>
@@ -14,7 +15,8 @@ export default function App() {
    <Route path="/sign-in" element={<Signin/>} />
    <Route path="/sign-up" element={<Signup/>} />
    <Route path="/about" element={<About/>} />
-   <Route path="/profil" element={<Profile/>} />
+   <Route path="/profile" element={<Profile/>} />
+   
 
    
   
